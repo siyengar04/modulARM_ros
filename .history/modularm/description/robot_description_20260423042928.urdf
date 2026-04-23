@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<robot name="visual">
+
+<material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+            <origin rpy="0.0 0 0" xyz="0 0 0"/>
+
+      <geometry>
+          <mesh filename="package://modularm/meshes/base_link.stl" scale="1 1 1"/>
+      </geometry>
+    </visual>
+    <collision>
+            <origin rpy="0.0 0 0" xyz="0 0 0"/>
+      <geometry>
+          <mesh filename="package://modularm/meshes/base_link.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <<inertial>
+      <origin xyz="0.000 0.000 0.000" rpy ="0.000 0.000 0.000"/>
+      <mass value="2.000"/>
+      <inertia
+        ixx="0.03562" ixy="0.00000" ixz="0.00000"
+        iyy="0.04262" iyz="0.00000"
+        izz="0.04508"/>
+    </inertial>
+  </link>
+
+</robot>

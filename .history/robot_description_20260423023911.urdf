@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot name="origins">
+  <link name="base_link">
+    <visual>
+      <geometry>
+            <mesh filename="stl/base_link.stl" scale="100"/>
+        </geometry>
+      
+    </visual>
+  </link>
+
+
+</robot>
