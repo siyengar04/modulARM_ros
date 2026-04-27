@@ -290,6 +290,7 @@
       </command_interface>
 
       <command_interface name="velocity">
+
       </command_interface>
       <!-- additional command interfaces ... -->
       <state_interface name="velocity">

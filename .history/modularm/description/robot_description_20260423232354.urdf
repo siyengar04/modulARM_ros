@@ -285,11 +285,13 @@
     </joint>
     <joint name="joint_shaft2">
       <command_interface name="position">
+
         <param name="min">{-pi}</param>
         <param name="max">{pi}</param>
       </command_interface>
 
       <command_interface name="velocity">
+
       </command_interface>
       <!-- additional command interfaces ... -->
       <state_interface name="velocity">
